@@ -91,4 +91,15 @@ public class Produit {
 			        System.out.println("Le prix proposé est invalide.");
 			    }
 			}
+			
+			// Calcule de la marge réalisée sur le produit (prix de vente - prix d'achat)
+			public double calculerMarge() {
+			    double marge = this.prixVente - this.prixAchat;
+			    return marge;
+			}
+			@Override
+			public String toString() {
+				return "Produit [reference=" + reference + ", designation=" + designation + ", prixAchat=" + prixAchat
+						+ ", prixVente=" + prixVente + ", quantiteStock=" + quantiteStock + "]";
+			}
 }
