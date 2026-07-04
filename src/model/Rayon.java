@@ -64,5 +64,5 @@ public class Rayon {
 		return "Rayon [codeRayon=" + codeRayon + ", nomRayon=" + nomRayon + ", responsable=" + responsable
 				+ ", listeProduits=" + listeProduits + "]";
 	}
-	
+	 
 }
