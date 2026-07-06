@@ -53,7 +53,7 @@ public class Employe {
 	    System.out.println("Prénom : " + this.prenom);
 	    System.out.println("Salaire : " + this.salaire + " Fcfa");
 	}
-
+     
 	// Représentation textuelle de l'objet Employe
 	public String toString() {
 		return "Employe [matricule=" + matricule + ", nom=" + nom + ", prenom=" + prenom + ", salaire=" + salaire + "]";
