@@ -78,11 +78,18 @@ public class Client {
 		public String consulterHistorique() {
 			String str = "Historique des achats de " + nom + " :\n";
 			
-			for (int i=0; 1< historiqueAchats.size(); i++) { 
+			for (int i=0; i< historiqueAchats.size(); i++) { 
 				str=str + "-"+historiqueAchats.get(i).toString()+ "\n";
 				} 
 				return str;
 		}
+
+		public void ajouterVente(Vente vente) {
+			if (vente != null) {
+				this.historiqueAchats.add(vente);
+		}
+			
+	}
 }
 		
 
