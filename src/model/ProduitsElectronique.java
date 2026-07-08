@@ -1,13 +1,13 @@
 package model;
 
-public class ProduitsElectroniques extends Produit {
+public class ProduitsElectronique extends Produit {
 	// Déclaration des champs (attributs propres à ProduitElectronique)
 	
 	
 	private String marque;
 	private int garantie;
 	// Constructeur d'initialisation
-	public ProduitsElectroniques(int reference, String designation, double prixAchat, double prixVente, int quantiteStock, String marque, int garantie) {
+	public ProduitsElectronique(int reference, String designation, double prixAchat, double prixVente, int quantiteStock, String marque, int garantie) {
 	    super(reference, designation, prixAchat, prixVente, quantiteStock);
 	    this.marque = marque;
 	    this.garantie = garantie;
@@ -27,7 +27,7 @@ public class ProduitsElectroniques extends Produit {
 	}
 	// Représentation textuelle de l'objet ProduitsElectroniques
 	public String toString() {
-		return "ProduitsElectroniques [marque=" + marque + ", garantie=" + garantie + "]";
+		return "ProduitsElectronique [marque=" + marque + ", garantie=" + garantie + "]";
 	}
 
 	public void setGarantie(int garantie) {
